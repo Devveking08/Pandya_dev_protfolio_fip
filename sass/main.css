@@ -236,12 +236,12 @@ hr {
   align-items: center;
 }
 
-.video {
+#about video {
   width: 400px;
-  height: 400px;
+  height: 300px;
   display: block;
   margin: 0 auto;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Black shadow */
+  box-shadow: #681212 20px 20px 20px;
 }
 
 /* projects */
@@ -305,8 +305,6 @@ hr {
     display: none;
   }
 }
-
-
 /*lightbox */
 .lightbob {
   display: none;

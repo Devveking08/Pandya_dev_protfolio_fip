@@ -9,15 +9,12 @@ body {
   html {
     scroll-behavior: smooth;
   }
-  
-
   h1 {
     font-size: 30px;
     color: white;
     padding-top: 10px;
     text-align: center;
   }
-
 
   ul {
     list-style: none;
@@ -310,6 +307,14 @@ body {
   background-color: darkred;
 }
 
+@media only screen and (max-width: 600px) {
+  .button {
+    display: none;
+    
+  }
+}
+
+
 /*lightbox */
 
 .lightbob {
@@ -382,5 +387,6 @@ body {
 .lightbob:target {
   display: block;
 }
+
 
 
