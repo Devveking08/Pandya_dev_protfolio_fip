@@ -236,12 +236,12 @@ hr {
   align-items: center;
 }
 
-#about video {
+.video {
   width: 400px;
-  height: 300px;
+  height: 400px;
   display: block;
   margin: 0 auto;
-  box-shadow: #681212 20px 20px 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Black shadow */
 }
 
 /* projects */
@@ -299,6 +299,13 @@ hr {
 .button:hover {
   background-color: darkred;
 }
+
+@media only screen and (max-width: 600px) {
+  .button {
+    display: none;
+  }
+}
+
 
 /*lightbox */
 .lightbob {
