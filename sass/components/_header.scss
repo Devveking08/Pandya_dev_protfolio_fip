@@ -301,3 +301,85 @@ body {
   background-color: darkred;
 }
 
+<<<<<<< Updated upstream
+=======
+@media only screen and (max-width: 600px) {
+  .button {
+    display: none;
+  }
+}
+/*lightbox */
+
+.lightbob {
+  display: none; 
+  width: 100vw; /* viewport width its the width of the browser window */
+  height: 100vh; /* viewport height its the height of browser window */
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0 ,0 ,0 ,0.7);
+  background-repeat: no-repeat;
+  background-position: 40px bottom;
+  background-size: 90Vh;
+  backdrop-filter: blur(5px);
+}
+
+
+.lb_close {
+
+  color: white;
+  text-decoration: none;
+  position: relative;
+  top: 2px;
+  left:95%;
+  font-weight: bolder;
+
+
+
+}
+
+.lb_close:hover {
+
+      opacity: 0.5;
+
+}
+
+.lightbob article {
+          width: 30 ;
+          margin-left: 0%;
+          padding-left: 20%;
+          padding-right: 20%;
+          padding-top: 50px;
+          font-style: italic;
+          
+}
+
+.lb_text, .lb_heading { 
+  text-align: left; 
+  font: large;
+  color: white;
+}
+
+.article h3 {
+  font: large;
+  color: white;
+  text-align: left;
+}
+
+
+.lb_text {
+  color: white;
+  line-height: 1.6;
+  margin-left: 0;
+  padding-top: 2em;
+  font-family: 'Raleway',sans-serif;
+
+}
+
+
+.lightbob:target {
+  display: block;
+}
+
+
+>>>>>>> Stashed changes
