@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Railway:wght@400&display=swap");
 body {
   margin: 0;
   padding: 0;
@@ -209,8 +211,7 @@ hr {
 
 .button:hover {
   background-color: darkred;
-<<<<<<< Updated upstream
-=======
+
 }
 
 /* about section */
@@ -291,6 +292,7 @@ hr {
 
 .button:hover {
   background-color: darkred;
+
 }
 
 /*footer */
@@ -311,5 +313,5 @@ footer {
 
 #footer img:hover {
   text-decoration: underline;
->>>>>>> Stashed changes
+
 }/*# sourceMappingURL=main.css.map */

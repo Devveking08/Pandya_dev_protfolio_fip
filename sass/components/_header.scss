@@ -212,3 +212,92 @@ body {
     background-color: darkred;
   }
   
+/* about section */
+
+#info {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #000000;
+}
+
+/* hero section */
+
+#about  {
+  background: url('../images/main.png') no-repeat center center fixed;
+  background-size: cover;
+  padding-top: 40px; 
+  padding-bottom: 40px;
+  align-items: center;
+}
+
+#about video{
+  width: 400px;
+  height: 300px;
+  display: block;
+  margin: 0 auto;
+  box-shadow: #681212 20px 20px 20px;
+ 
+}
+
+
+/* projects */
+
+
+
+#projects {
+  padding-top: 50px;
+  padding-bottom: 50px; 
+  background: #332F2F;
+
+}
+#projects img {
+  padding-left: 70px;
+  padding-top: 30px;
+}
+
+#projects h1 {
+  margin-left: 50px;
+}
+
+
+#projects-mobile {
+  padding-top: 50px;
+  padding-bottom: 50px; 
+  background: #332F2F;
+}
+
+#projects-mobile img {
+  padding-top: 30px;
+  width: 450px;
+}
+
+#projects-mobile h1 {
+  margin-left: 80px;
+}
+
+#projects-mobile p {
+  margin-left: 20px;
+  color: white;
+  font-style: italic;
+  text-align:left;
+}
+
+/* Button */
+
+.button {
+  background-color: red;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.button:hover {
+  background-color: darkred;
+}
+
