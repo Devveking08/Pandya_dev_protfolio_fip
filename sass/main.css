@@ -211,6 +211,7 @@ hr {
 
 .button:hover {
   background-color: darkred;
+
 }
 
 /* about section */
@@ -291,4 +292,26 @@ hr {
 
 .button:hover {
   background-color: darkred;
+
+}
+
+/*footer */
+footer {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#footer hr {
+  border: 1px solid red;
+  margin: 20px 0;
+  transform: translateX(-50%) rotate(90deg);
+}
+
+#footer img {
+  margin-right: auto;
+}
+
+#footer img:hover {
+  text-decoration: underline;
+
 }/*# sourceMappingURL=main.css.map */
