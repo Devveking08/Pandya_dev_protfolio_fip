@@ -5,14 +5,255 @@
     <meta charset="UTF-8">
     <!-- in mobile set initial zoom level of page to 100%, set site size to equal device width not a larger canvas that is shrunk down-->
     <meta name="viewport" content="initial-scale=1.0, width=device-width">
-    <title>GreenSock</title>
+    <title>Portfolio_home</title>
     <!-- Link to reset or normalize before main.css
     only choose one -->
     <link href="css/grid.css" rel="stylesheet">
-    <link href="css/main.css" rel="stylesheet">
+    <link href="sass/main.css" rel="stylesheet">
 </head>
 
 <body>
+    <header>
+
+        <section class="grid-con" id="desktop_nav"> <!--Navigation Section For the Desktop-->
+            <div class="desktop l-col-span-2 xl-col-span-2 "><img src="images/Dev_Pandya_Logo.png" height="100px" width="150px"></div>
+            <nav class="desktop l-col-start-5  l-col-end-13  ">
+                    <ul>
+                        <li><a href="#about">ABOUT</a></li>
+                        <li><a href="#info">SKILLS</a></li>
+                        <li><a href="#projects">PROJECTS</a></li>
+                        <li><a href="#footer">CONTACT</a></li>
+                    </ul>
+                </nav>
+        </section>        
+
+        <section class="grid-con" id="nav-bar"> 
+            <div class="mobile col-span-1 "><img src="images/Dev_Pandya_Logo.png" height="80px" width="110px"></div>
+            <div class="mobile col-span-2"></div>
+            <div class="hamburger mobile col-span-1">
+                <div class="line "> </div>
+                <div class="line "> </div>
+                <div class="line "> </div>
+              
+                <nav class="mobile-nav">
+                  <h2 class="hidden">Main Navigation</h2>
+                  <ul class="burger">
+                    <li> <a href="#" class="nav-button">ABOUT</a> </li>
+                    <li> <a href="#" class="nav-button">SKILLS</a> </li>
+                    <li> <a href="#" class="nav-button">PROJECTS</a> </li>
+                    <li> <a href="#" class="nav-button">CONTACT</a> </li>
+                  </ul>
+                </nav>
+              </div>
+              
+        </section>
+        
+    </header>
+
+    <main>
+        <section class="grid-con" id="about"> <!--About Section For the Desktop -->
+            <div class="col-span-4 l-col-start-2 l-col-end-6 xl-col-start-2 xl-col-end-6 "></div> 
+                <video src="video/Promotional_Video.mp4" controls="controls"></video>
+        </section>
+
+
+        <section class="grid-con" id="info">
+            <div class="col-span-4 l-col-start-3 l-col-end-6 xl-col-start-3 xl-col-end-6 circular-profile-pic"></div> 
+            <div class="col-span-4 l-col-span-6 xl-col-span-6 box"><p>"Hello, I'm Dev Pandya, an aspiring Interactive Media Design enthusiast. I embarked on my journey in this exciting field in the fall of 2022, and I've been on a captivating exploration ever since.
+                My skills revolve around web development, where I've harnessed the power of CSS, HTML, and JavaScript to create dynamic and visually appealing web experiences. In addition, I've dabbled in the Adobe Creative Cloud suite, allowing me to infuse a creative touch into my projects. </p><br>
+                <p>
+                One of my true passions lies in crafting user-centric UI/UX designs. I revel in experimenting with design principles, seeking to create intuitive and engaging digital interfaces.
+                </p></div> 
+        </section>
+       <hr>
+       <h1>PROJECTS </h1>
+       <hr>
+        <section class="grid-con" id="projects"> <!--Projects Section For the Desktop-->
+            <div class="col-span-4 l-col-span-12 xl-col-span-12 "><h1 class="hidden">PROJECTS<h1></div>  
+                <div class="desktop l-col-span-6 xl-col-span-6">
+                    <a href="#lightBob">
+                        <img src="images/billy-beer.png" alt="billy-beer-project-image">
+                    </a>
+                </div>
+            <div class="desktop l-col-span-6 xl-col-span-6 ">
+                <a href="#lightBob2">
+                <img src="images/music-mixer.png" alt="music-mixer-project-image">
+                </a>
+            </div>
+            <div class="desktop l-col-span-5 xl-col-span-5 "><h1>Project Name: Billy Beer</h1></div>
+            <div class="desktop l-col-span-1 xl-col-span-1"></div>
+            <div class="desktop l-col-span-5 xl-col-span-5 "><h1>Project Name: Music Mixer</h1></div>
+            <div class="desktop l-col-span-1 xl-col-span-1"></div>
+            <a  href="https://github.com/a-wotton/pandya_wotton_FIP" class="desktop l-col-start-1  l-col-end-5 xl-col-start-1 xl-col-start-5  button">View Git</a>
+
+            <a href="https://github.com/a-wotton/Pandya_Wotton_Music_Mixer" class="desktop l-col-start-7  l-col-end-11 xl-col-start-7 xl-col-start-11 button">View Git</a>
+            
+            <div class="desktop l-col-span-6 xl-col-span-6 "><a href="#lightBob3"><img src="images/The_knights.png" alt="The-knights-project-image"></a></div>
+            <div class="desktop l-col-span-6 xl-col-span-6 "><a href="#lightBob4"><img src="images/jjk-main.png" alt="jujutsu-kaisen-project-image"></a></div>
+            <div class="desktop l-col-span-5 xl-col-span-5 "><h1>Project Name: Industry Night Showcase</h1></div>
+            <div class="desktop l-col-span-1 xl-col-span-1"></div>
+            <div class="desktop l-col-span-5 xl-col-span-5 "><h1>Project Name: JJK Characters Wiki</h1></div>
+            <div class="desktop l-col-span-1 xl-col-span-1"></div> 
+            <a href="https://github.com/a-wotton/knights_student_showcase"  class="desktop l-col-start-1  l-col-end-5 xl-col-start-1 xl-col-start-5 button ">View Git</a>
+            <a href="https://github.com/Devveking08/dev_pandya_jjk_build " class="desktop l-col-start-7  l-col-end-11 xl-col-start-7 xl-col-start-11  button">View-Git</a>
+        </section>
+        <section class="grid-con" id="projects-mobile">
+            <div class="mobile col-span-4"><img src="images/billy-beer-mobile.png"  alt="billy-beer-m"></div>
+            <div class="mobile col-span-3 "><h1>Billy Beer</h1></div>
+            <div class="mobile col-span-4 "><p> This class assignment involved a comprehensive rebranding endeavor for the legendary Billy Beer, culminating in the creation of a responsive website to showcase the brand and its various products, enhanced with dynamic content. The project primarily focused on infusing a fresh identity into the brand while preserving its historical significance.</p></div>
+
+            <div class="mobile col-span-4 "><img src="images/music-mixer-mobile.png" alt="music-mixer-m"></div>
+            <div class="mobile col-span-3"><h1>Music Mixer</h1></div>
+            <div class="mobile col-span-4 "><p>This is a multimedia page that uses HTML, CSS, and JavaScript to create an interacitve music mixer. The user will be able to custom tailor their experience by choosing from a selection of different instruments incorporated into the UI.</p></div>
+
+            <div class="mobile col-span-4 "><img src="images/jjk-build-mobile.png" alt="jjk-main"></div>
+            <div class="mobile col-span-3"><h1>JJK Characters Wiki</h1></div>
+            <div class="mobile col-span-4"><p>The primary objective of the Jutsu Kaisen Wiki project was to create an informative and visually engaging web platform dedicated to the "Jutsu Kaisen" manga and anime series. The project aimed to provide fans with a centralized hub for character details, their special moves .</p></div>
+
+            <div class="mobile col-span-4 "><img src="images/The knights showcase.png" alt="The knights"></div>
+            <div class="mobile col-span-3 "><h1>The Knights</h1></div>
+            <div class="mobile col-span-4"><p>Welcome to the Student Portfolio Showcase Website project! This collaborative effort involves students from Interactive Media Design program classes at Fanshawe College. The goal of this project is to design and develop a mobile-first, responsive website that will serve as a platform for students to showcase their skills, projects, and achievements to potential employers, industry professionals, and peers attending the upcoming Industry Night event in April.</p></div>
+     
+        </section>
+           
+    </main>
+    <hr>
+    <h1>CONTACT </h1>
+    <hr>
+    <footer>
+        <section class="grid-con" id="footer"> 
+            <div class="col-span-4 l-col-span-12 xl-col-span-12"><h1 class="hidden">CONTACT</h1></div>
+            <div class="col-span-4 l-col-span-5 xl-col-span-5 box"><h3> Social Media: </h3>
+                <img src="images/Pintrest.png" height="50px" width="50px" alt="Pintrest-logo">
+                <img src="images/Linkdin.png" height="50px" width="50px" alt="Linkdin-logo">
+                <img src="images/Git-hub.png" height="50px" width="50px" alt="Git-hub-logo">
+            </div>
+            <div class="col-span-4 l-col-span-1 xl-col-span-1 "></div>
+            <div class="col-span-4 l-col-span-6 xl-col-span-6 box"><h3>Inquires</h3><br>
+                <p>Email: devpandya750@gmal.com<p>
+            </div>
+          
+            <div class="col-span-2 l-col-span-3 xl-col-span-3"><img src="images/Dev_Pandya_Logo.png" alt="logo" height="100" width="140px"></div>
+        </section>
+    </footer>
+
+    <section class="lightbob" id="lightBob">
+        <a href="" class="lb_close"><img src="images/close.png" alt="time_reverse" height="50px" width="50px"></a>
+    
+        <article>
+        <h3 class="lb_heading">Billy Beer </h3>
+        <p class="lb_text">
+            This class assignment involved a comprehensive rebranding endeavor for the legendary Billy Beer, culminating in the creation of a responsive website to showcase the brand and its various products, enhanced with dynamic content. The project primarily focused on infusing a fresh identity into the brand while preserving its historical significance. 
+        </p>
+        <br>
+        <p class="lb_text">
+            During the initial stages, I took the lead in conceptualization, crafting sketch logos, and defining the brand's color palette. After thoughtful deliberation, we opted for a sophisticated blend of gold and blue, paying homage to the brand's original colors. To add a modern twist, we introduced new flavors, expanding the product range.
+        </p>
+        <br>
+        <p class="lb_text">
+            To visually communicate our vision, we used Cinema 4D to design eye-catching cans and bottles, injecting a contemporary feel into the brand's image. The subsequent step involved leveraging Adobe Creative Suite to create visually appealing posters and banners, aligning with the revamped brand aesthetics.
+        </p>
+        <br>
+        <p class="lb_text">
+            The final phase of the assignment was the website development, where tasks were collaboratively divided. I actively contributed to both the functional and design aspects of the site, employing HTML, CSS, and JavaScript. The end result is a seamlessly responsive website that encapsulates the essence of the rebranded Billy Beer, providing a dynamic and engaging user experience. This assignment serves as a testament to our collaborative efforts in rejuvenating a classic brand within the constraints of a class project.
+        </p>
+        <br>
+        <h4>Technologies Used:</h4>
+        <u><b>HTML, CSS</b></u> <br>
+        <u><b>Maxon Cinema 4D, Photoshop, Illustarator, Adobe XD</b></u> <br>
+        
+    
+        </p>
+        </article>   
+    </section>
+
+    <section class="lightbob" id="lightBob2">
+        <a href="" class="lb_close"><img src="images/close.png" alt="time_reverse" height="50px" width="50px"></a>
+
+        <article>
+        <h3 class="lb_heading">Music Mixer</h3>
+        <p class="lb_text">
+        </p>
+        <p class="lb_text">This is a multimedia page that uses HTML, CSS, and JavaScript to create an interacitve music mixer. The user will be able to custom tailor their experience by choosing from a selection of different instruments incorporated into the UI.
+        </p>
+        </article>        
+    </section>
+
+    <section class="lightbob" id="lightBob3">
+        <a href="" class="lb_close"><img src="images/close.png" alt="time_reverse" height="50px" width="50px"></a>
+
+    
+    <article>
+        <h1 class="lb_heading">INDUSTRY NIGHT</h1>
+        <h2 class="lb_heading">ROLE: CONTENT CREATION AND DESIGN</h2>
+        <p class="lb_text">
+            Dev Pandya, a web designer and content creator, played a vital role in the creation of a dynamic website to promote Fanshawe College's Interactive Media Design program and the upcoming Industry Night event in April. Dev faced a unique challenge during the project—creating a 15-second promotional video that encapsulated the essence of the event using just three key phrases: "Create, Inspire, and Transform." 
+        </p>
+        <br>
+        <h3 class="lb_heading">Project Contributions:</h3>
+        <br>
+        <p class="lb_text">
+            Web Designer (Dev Pandya)
+            Crafted a succinct and impactful 15-second promotional video that revolved around the core concepts of "Create, Inspire, and Transform."Maintained the visual branding consistency with Fanshawe College, ensuring a professional and visually appealing presentation.
+            Explored font choices, ultimately selecting Montserrat and Open Sans to achieve a minimalistic and professional look.            
+        </p>
+        <h3 class="lb_heading">Key Phrases:</h3>
+        <p class="lb_text">
+            Dev's strategic choice of "Create, Inspire, and Transform" perfectly encapsulated the Industry Night event's essence, conveying the event's mission in just three words.           
+        </p>
+        <h3 class="lb_heading">Visual Consistency:</h3>
+        <p class="lb_text">
+            By keeping the design consistent with Fanshawe College's brand identity, the website seamlessly integrated with the broader institutional image, while still maintaining a unique and visually appealing presentation.       
+        </p>
+        <h3 class="lb_heading">Font Selection:</h3>
+        <p class="lb_text">
+        The experiment with fonts, Montserrat and Open Sans, led to the discovery of the perfect combination for a minimalistic and professional appearance. This choice ensured that the website's typography complemented the content, enhancing the overall user experience.
+        </p>
+        <h3 class="lb_heading">Project Outcomes: </h3>
+        <p class="lb_text">
+            Dev Pandya's contributions were instrumental in the successful creation of the website for Fanshawe College's Interactive Media Design program. The 15-second promotional video, with its three key phrases, effectively conveys the event's essence, while the visual consistency with Fanshawe College's brand and the thoughtful font selection contribute to a professional and engaging online presence.
+        </p>
+        </article>
+        </section>
+
+        
+        <section class="lightbob" id="lightBob4">
+            <a href="" class="lb_close"><img src="images/close.png" alt="time_reverse" height="50px" width="50px"></a>
+    
+        
+        <article>
+            <h3 class="lb_heading">Jujutsu Kaisen Wiki</h3>
+            <p class="lb_text">The primary objective of the Jutsu Kaisen Wiki project was to create an informative and visually engaging web platform dedicated to the "Jutsu Kaisen" manga and anime series. The project aimed to provide fans with a centralized hub for character details, their special moves .
+            </p>
+            <h4>Role and Responsibilities:</h4>
+            <p class="lb_text">As the sole contributor to the project, my responsibilities encompassed the design and implementation of a crucial interactive feature – the lightbox. The lightbox served as a key element for presenting detailed character information and additional content without requiring users to navigate away from the main page.
+            </p>
+            <h4>Key Contributions:<h4>
+                <p class="lb_text"> Lightbox Creation: 
+                    Developed a customized lightbox using HTML and CSS to ensure an aesthetically pleasing and responsive overlay for displaying information.
+                    Integrated smooth transitions and animations within the lightbox to enhance the overall user experience.
+                </p>
+                <p class="lb_text"> Content Management:
+                    Structured content within the lightbox, prioritizing readability and accessibility.
+                    Applied CSS styling to elevate the presentation of textual information, maintaining a cohesive design approach.
+                </p>
+                <p class="lb_text"> Content Management:
+                    Structured content within the lightbox, prioritizing readability and accessibility.
+                    Applied CSS styling to elevate the presentation of textual information, maintaining a cohesive design approach.
+                </p>
+                <p class="lb_text"> Independent Leadership:
+                    Led the project independently, making design decisions and ensuring a consistent visual identity throughout the Jutsu Kaisen Wiki.
+                    Engaged in self-directed discussions to refine design choices and maintain a cohesive aesthetic.
+                </p>
+                <p class="lb_text"> Conclusion:
+                    The Jutsu Kaisen Wiki project provided valuable insights into creating interactive and visually pleasing web interfaces. As the sole contributor, this project demonstrated my ability to independently lead and execute a web development project, resulting in a successful and engaging platform for "Jutsu Kaisen" enthusiasts.
+                </p>
+                
+                
+               
+            <br>
+            
+    </section>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
     <script src="js/main.js"></script>

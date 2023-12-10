@@ -1,1 +1,44 @@
-/*# sourceMappingURL=main.css.map */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #000000;
+  font-family: "Railway", sans-serif;
+  color: white;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: right;
+}
+
+li {
+  display: inline;
+}
+
+#desktop_nav {
+  background-color: #000000;
+  font-family: "Poppins", sans-serif;
+}
+
+#desktop_nav img:hover {
+  opacity: 30%;
+}
+
+nav {
+  margin-top: 40px;
+}
+
+a {
+  display: block;
+  padding: 15px;
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  background-color: red;
+  text-decoration: underline;
+}/*# sourceMappingURL=main.css.map */
