@@ -310,6 +310,14 @@ body {
   background-color: darkred;
 }
 
+
+
+@media only screen and (max-width: 600px) {
+  .button {
+    display: none;
+  }
+}
+
 /*lightbox */
 
 .lightbob {
